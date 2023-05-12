@@ -60,7 +60,7 @@ public class Hooks {
     private void captureScreenshot(String screenshotName) {
         try {
             File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            File destFile = new File("html-reports/" + screenshotName + ".png");
+            File destFile = new File("reports/" + screenshotName + ".png");
             FileHandler.copy(screenshot, destFile);
             System.out.println("Screenshot captured: " + destFile.getAbsolutePath());
         } catch (WebDriverException | IOException e) {
