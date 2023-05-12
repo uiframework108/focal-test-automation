@@ -1,5 +1,5 @@
 target/
-html-reports/
+html-reports/**
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
