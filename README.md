@@ -13,7 +13,7 @@ mvn test -Dcucumber.options="--tags @functional" // this will run all tests with
 I will try to add Dockerfile during weekend in case you don't have maven installed to make it easier.
 
 Current expected result is 3 tests will pass, one will fail because of an issue reported as a bug, for the sake of this, it is expected.
-After the test run is finished, focal-test-automation/report folder contains screenshot capturing failure during test run, 
+After the test run is finished, focal-test-automation/reports folder contains screenshot capturing failure during test run, 
 focal-test-automation/target/cucumber-report/cucumber-html-reports/report-feature_*.html is a report of a test run, rn being overwritten each run.
 
 Will report bugs here in github tomorrow morning.
