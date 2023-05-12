@@ -42,7 +42,7 @@ Feature: Login and Password reset functionality
   # Feel free to access Yahoo mailbox manually: uiframework108108@yahoo.com / Helloworld123!
 
 
-#  @done @end-to-end
+  @done @end-to-end
   Scenario: User checks Remember me, Change username and confirm button functionality on the Home and Login pages
     Given I am on the homepage
       And the continue button is disabled
