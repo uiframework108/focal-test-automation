@@ -7,24 +7,16 @@ mvn clean install -DskipTests
 
 For the tests there are 3 options:
 mvn test // this will run all tests with @done tag - in our case all tests
-
 mvn test -Dcucumber.options="--tags @end-to-end" // this will run all tests with @end-to-end && @done tags - all e2e tests
-
 mvn test -Dcucumber.options="--tags @functional" // this will run all tests with @functional && @done tags - all functional tests
-
 
 I will try to add Dockerfile during weekend in case you don't have maven installed to make it easier.
 
-
 Current expected result is 3 tests will pass, one will fail because of an issue reported as a bug, for the sake of this, it is expected.
-
 After the test run is finished, focal-test-automation/report folder contains screenshot capturing failure during test run, 
-
 focal-test-automation/target/cucumber-report/cucumber-html-reports/report-feature_*.html is a report of a test run, rn being overwritten each run.
 
-
 Will report bugs here in github tomorrow morning.
-
 
 TODO:
 Framework:
@@ -37,5 +29,4 @@ Performance is something to be looked at.
 Tests:
 Well of course I'd get a proper access to the service so many full end to end tests would be added together with smaller functional positive 
 and negative scenarios based on test plan in the PI.
-
 Add more assertions in the current flows.
