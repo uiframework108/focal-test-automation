@@ -1,5 +1,7 @@
 # focal-test-automation
 
+Please read the README.md by clicking on the file and then Code to make it easier to read
+
 Howto run tests:
 git clone https://github.com/uiframework108/focal-test-automation.git
 cd <path_to>/focal-test-automation
