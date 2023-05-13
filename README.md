@@ -24,6 +24,7 @@ fighting with it because I remember I had the same problem in Ruby Cucumber and 
 is displayed/not would be transformed first to make the code cleaner.
 Dockerize it, prepare a pipeline. Please let me know if you prefer to have it in a docker, I can try to fight those compatibility chrome driver issues on Monday, maybe changing it to firefox would quickly solve it.
 Also tackle Maven resource or Ant plugins as I couldn't count on proper moving of test reports to the main folder.
+Add Lombok and setup some additional logger to help debugging potential problems.
 
 Tests:
 With a proper access to the service there would be many end to end tests added together with smaller functional positive 
