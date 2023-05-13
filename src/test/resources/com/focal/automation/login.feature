@@ -80,7 +80,7 @@ Feature: Login and Password reset functionality
     Then the error message on Login page should be "Incorrect username/password. Please try again!"
 
 
-  @done @functional
+  @done @functional @GITHUB:BUG#1
   Scenario: [KNOWN ISSUE] User is unable to use Send Link to Email with incorrect e-mail
     Given I am on the homepage
       And I enter my Realm username or email "uiframework108108@yahoo.com"
