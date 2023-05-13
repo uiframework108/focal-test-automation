@@ -20,7 +20,7 @@ Feature: Login and Password reset functionality
         And I enter my email for password reset "uiframework108108@yahoo.com"
       When I click the Send link to email button
       Then I see the Email sent confirmation message
-        And I open Yahoo Mail in Chrome browser
+        And I open Yahoo Mail in the current tab
         And I enter my Yahoo email "uiframework108108@yahoo.com"
         And I confirm it by clicking Next button
         And I enter my Yahoo password "Helloworld123!"

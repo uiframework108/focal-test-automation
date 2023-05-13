@@ -12,13 +12,13 @@ public class PasswordResetPage {
     @FindBy(id = "password-reset-form-password")
     private WebElement resetEmailField;
 
-    @FindBy(xpath = "//span[contains(text(),'Send link to email')]")
+    @FindBy(css = "button[data-testid='password-reset-submit-button']")
     private WebElement sendLinkToEmailButton;
 
-    @FindBy(xpath = "//button[contains(@class, 'MuiButtonBase-root') and contains(@class, 'MuiButton-root') and contains(@class, 'MuiButton-text')]//span[contains(text(),'Back to login')]")
+    @FindBy(xpath = "//span[contains(text(),'Back to login')]")
     private WebElement backToLoginButton;
 
-    @FindBy(xpath = "//span[contains(text(),'Close')]")
+    @FindBy(xpath = "//button/span[contains(text(),'Close')]")
     private WebElement closeButton;
 
     @FindBy(className = "MuiTypography-caption-206")

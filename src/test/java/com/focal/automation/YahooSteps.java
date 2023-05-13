@@ -18,7 +18,7 @@ public class YahooSteps {
         this.driver = hooks.getDriver();
     }
 
-    @When("I open Yahoo Mail in Chrome browser")
+    @When("I open Yahoo Mail in the current tab")
     public void openYahooMail() {
         driver.get(YAHOO_MAILBOX_URL);
     }

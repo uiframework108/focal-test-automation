@@ -48,11 +48,16 @@ public class Hooks {
 
     @After
     public void teardown(Scenario scenario) {
-        if (driver != null) {
-            if (scenario.isFailed()) {
-                captureScreenshot(scenario.getName());
+        try {
+            if (driver != null) {
+                if (scenario.isFailed()) {
+                    captureScreenshot(scenario.getName());
+                }
+                driver.quit();
             }
-            driver.quit();
+        } catch (Exception e) {
+            System.out.println("An exception occurred during teardown: " + e.getMessage());
+        } finally {
             driver = null;
         }
     }
