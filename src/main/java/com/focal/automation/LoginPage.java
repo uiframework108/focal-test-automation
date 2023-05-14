@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+// Page Object pattern class for Login page, holding selectors and method on them
 public class LoginPage {
 
     // Locators

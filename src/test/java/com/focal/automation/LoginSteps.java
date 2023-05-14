@@ -5,7 +5,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 
-// Steps for the login page that with email, password fields and other buttons suck as Forgot Password, Change Username...
+// Steps for the login page
 public class LoginSteps {
 
     private WebDriver driver;
